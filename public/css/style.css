@@ -68,6 +68,7 @@ nav {
 
 .results {
   padding: 3rem 5rem;
+  overflow: hidden;
 }
 
 .results p {
@@ -109,6 +110,10 @@ nav {
   .searchbar input {
     width: 70vw;
   }
+
+  .suggestiondiv {
+    width: 300px;
+  }
 }
 
 .mb5 {
@@ -126,4 +131,5 @@ nav {
   text-align: center;
   padding: 10px;
   font-size: 1.6rem;
+  margin-top: 20px;
 }
