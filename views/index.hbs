@@ -33,22 +33,27 @@
         <div class="results">
 
             {{#if suggestion}}
-                <div class="suggestiondiv">
-                    {{#each list}}
-                        <a href="/:{{this}}" class="hint">{{this}}</a>
-                    {{/each}}
-                </div>
+            <div class="suggestiondiv">
+                {{#each list}}
+                <a href="/:{{this}}" class="hint">{{this}}</a>
+                {{/each}}
+            </div>
             {{/if}}
-            
+
 
             {{#each def}}
             <h3 class="headingans">{{this.meta.id}}</h3>
             <p>{{this.shortdef}}</p>
             {{/each}}
         </div>
-        
+
     </section>
 
+    <footer class="footer">
+        Dictionary website | author : Piyush Kumar |
+        created on
+        31-jan-2021
+    </footer>
 </body>
 
 </html>
